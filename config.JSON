@@ -8,11 +8,11 @@
     },
 
     "train": {
-        "train_image_folder":   "C:/Users/shivam/basic-yolo-keras/images1/train_img/",
-        "train_annot_folder":   "C:/Users/shivam/basic-yolo-keras/annotations1/train_ann/",     
+        "train_image_folder":   "/content/car_data/image/",
+        "train_annot_folder":   "/content/car_data/annot/",     
           
         "train_times":          10,
-        "pretrained_weights":   "trained_wts.h5",
+        "pretrained_weights":   "",
         "batch_size":           16,
         "learning_rate":        1e-4,
         "nb_epoch":             100,
@@ -24,7 +24,7 @@
         "class_scale":          1.0,
 
         "saved_weights_name":   "trained_wts.h5",
-        "debug":                true
+        "debug":                false
     },
 
     "valid": {
